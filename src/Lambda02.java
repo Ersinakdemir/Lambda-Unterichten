@@ -103,7 +103,7 @@ public class Lambda02 {
     // Task : List'teki cift elemanlarin carpimini  yazdiriniz.
     public static void ciftCarpim(List<Integer> sayi){
 
-        //Method Ref
+        //Method Refng
         System.out.println("method ref : "+sayi.
                 stream().
                 filter(Lambda01::ciftSayiBul).
@@ -115,4 +115,5 @@ public class Lambda02 {
                 filter(Lambda01::ciftSayiBul).
                 reduce(1, (a, b) -> (a * b)));
     }
+
 }

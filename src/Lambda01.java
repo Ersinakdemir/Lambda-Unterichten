@@ -81,6 +81,7 @@ public class Lambda01 {
     public static void yazdir(int a){//Yazdirma actionu yapan seed(tohum)
         System.out.print(a+" ");
     }
+
     public static void prinElFunctional2( List<Integer> sayi){
         sayi.stream().forEach(Lambda01::yazdir);//method reference-->System.outyapisinda prin tmethodu refere et
     }
@@ -101,6 +102,7 @@ public class Lambda01 {
     public static boolean ciftSayiBul(int a){
         return a%2==0;
     }
+
     //functional Programming ile list elemanlarinin  cift olanalrini ayni satirda aralarina bosluk birakarak print ediniz
     public static void printCiftElFunctional1(List<Integer> sayi){
         sayi.
