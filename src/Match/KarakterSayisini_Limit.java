@@ -1,5 +1,6 @@
 package Match;
 
+import java.io.Console;
 import java.util.*;
 
 public class KarakterSayisini_Limit {
